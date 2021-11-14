@@ -1,0 +1,62 @@
+I"W<h1 id="test">Test</h1>
+
+<h2 id="test-1">Test</h2>
+
+<h3 id="test-2">Test</h3>
+
+<h4 id="test-3">Test</h4>
+
+<h5 id="test-4">Test</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre><code class="language-C++">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+
+int main()
+{
+    std::vector&lt;int&gt; vec;
+    for (int i = 0; i &lt; 12; i++)
+        vec.push_back(i);
+    for (auto &amp;i : vec)
+        i++;
+}
+</code></pre>
+
+<p>$\frac{\partial\epsilon}{\partial c_j}=2\int_{S^2}[(\sum_{i=1}^n c_i B_i(\omega)-L(\omega)]B_j(\omega)d\omega$
+\(\frac{\partial\epsilon}{\partial c_j}=2\int_{S^2}[(\sum_{i=1}^n c_i B_i(\omega)-L(\omega)]B_j(\omega)d\omega\)</p>
+
+\[\mathbf{G}=
+\begin{bmatrix}
+\int_{S^2}B_1(\omega)B_1(\omega)d\omega &amp; \int_{S^2}B_2(\omega)B_1(\omega)d\omega &amp;\dots &amp;\int_{S^2}B_n(\omega)B_1(\omega)d\omega \\
+\int_{S^2}B_1(\omega)B_2(\omega)d\omega &amp;\dots \\
+\dots &amp; &amp; \dots\\
+\int_{S^2}B_1(\omega)B_n(\omega)d\omega &amp; \int_{S^2}B_2(\omega)B_n(\omega)d\omega &amp;\dots &amp;\int_{S^2}B_n(\omega)B_n(\omega)d\omega
+\end{bmatrix}\]
+
+:ET
