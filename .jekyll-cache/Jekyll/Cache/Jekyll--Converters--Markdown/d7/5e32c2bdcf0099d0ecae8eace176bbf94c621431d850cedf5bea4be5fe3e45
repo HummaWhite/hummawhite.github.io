@@ -1,0 +1,8 @@
+I"<h2 id="zillum-renderer">Zillum Renderer</h2>
+<p><a href="https://github.com/HummaWhite/Zillum">Zillum</a> is my ray tracer, under development since I seriously began to study realistic image synthesis in Sep 2020. Now it has two versions, one running on CPU, another on GPU by OpenGL compute shader, which is also named <a href="https://github.com/HummaWhite/ZillumGL">ZillumGL</a>.
+I’ve made videos about the GPU version, you can view them through the links: <a href="https://youtu.be/pjfcD8fYfQg">Low-discrepancy sampler test</a>, <a href="https://youtu.be/TGbwSyqxKvY">Rendering the Gallery scene</a></p>
+
+<p>Typically when I want to verify new light transport methods I’ve learned, I’ll first code them in the CPU version, then I would consider how to implement those on GPU.</p>
+
+<hr />
+:ET

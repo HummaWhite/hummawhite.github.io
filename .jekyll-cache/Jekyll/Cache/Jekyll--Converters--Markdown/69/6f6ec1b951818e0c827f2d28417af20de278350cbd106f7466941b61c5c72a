@@ -1,0 +1,20 @@
+I"O<p>The projects listed below could have had their own development blogs, but time is quite limited… Perhaps I’ll add some when I’m free.</p>
+
+<h2 id="zillum-renderer">Zillum Renderer</h2>
+<p><a href="https://github.com/HummaWhite/Zillum">Zillum</a> is my ray tracer, under development since I seriously began to study realistic image synthesis in Sep 2020. Now it has two versions, one running on CPU, another on GPU by OpenGL compute shader, which is also named <a href="https://github.com/HummaWhite/ZillumGL">ZillumGL</a>.
+I’ve made videos about the GPU version, you can view them through the links: <a href="https://youtu.be/pjfcD8fYfQg">Low-discrepancy sampler test</a>, <a href="https://youtu.be/TGbwSyqxKvY">Rendering the Gallery scene</a></p>
+
+<p>Typically when I want to verify new light transport methods I learn, I’ll first code them in the CPU version, then I would consider how to implement those on GPU and optimize.</p>
+
+<hr />
+<h2 id="software-rasterizer">Software Rasterizer</h2>
+<p>In the month before I started to learned offline rendering, I tried to implement a <a href="https://github.com/HummaWhite/SoftRaster">software rasterizer</a> which emulates the functions of modern hardware graphics pipelines. It supports programmable vertex shader and fragment shader.</p>
+
+<hr />
+<h2 id="the-final-project-of-c-programming-course">The Final Project of C++ Programming Course</h2>
+<p>My final project for C++ Programming (fall 2019). We were required to make a sprite game, so I made a very simpified duplicate of A LINK TO THE PAST, Github repo <a href="https://github.com/HummaWhite/cpp2019">here</a>.</p>
+
+<hr />
+<h2 id="3d-model-for-the-administrative-building-of-no7-high-school-chengdu">3D model for the Administrative Building of No.7 High School Chengdu</h2>
+<p>When I was in high school I had thought of making such a model for my high school. For some reasons, it was until Jan 2020 that I finally finished it (just before I acknowledged Graphics). I build this model by direct observation of the building, with help from some historical images and data I measured at the ground level.</p>
+:ET
