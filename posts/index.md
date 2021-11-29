@@ -20,6 +20,13 @@ I've made videos about the GPU version, you can view them through the links: [Lo
 Typically when I want to verify new light transport methods I learn, I'll first code them in the CPU version, then I would consider how to implement those on GPU and optimize.
 
 ---
+## Parallel & Distributed Computing Course Lab Project
+There were two programming labs in the course this year (2021). One is MPI prime sieving, the other is CUDA n-body problem.
+My programs were the best optimized in the class, which earned me 100% score of the lab part :) (the faster your program, the higher your score).
+
+I cannot share my code, but idea can be communicated. [Report for the two labs]()
+
+---
 ## Software Rasterizer
 In the month before I started to learned offline rendering, I tried to implement a [software rasterizer](https://github.com/HummaWhite/SoftRaster) which emulates the functions of modern hardware graphics pipelines. It supports programmable vertex shader and fragment shader.
 
