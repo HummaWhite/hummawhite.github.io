@@ -2,9 +2,9 @@
 
 **Official:** 刘畅
 
-**Traditional transcription:** 劉暢
+**Traditional:** 劉暢
 
-**English transcription:**  Liu, Chang / Chang Liu
+**English:**  Liu, Chang / Chang Liu
 
 where Liu刘 is my family name, Chang畅 is the given name.
 
