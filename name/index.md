@@ -1,27 +1,30 @@
-![](Chang_grey.png)
+---
+layout: page
+background: '/img/mitsuba2.png'
+---
+
+<center>
+    <img src="Chang_grey.png" width="70%">
+</center>
 
 **Official:** 刘畅
 
-**Traditional:** 劉暢
+**Traditional:** as shown in the picture
 
 **English:**  Liu, Chang / Chang Liu
 
-where Liu刘 is my family name, Chang畅 is the given name.
+---
+#### Pronounciation (English approximation)
 
-### Pronunciation Guide
+- Chang Liu: **cha** (as in *chart*)**--ng lee--oh**
 
-##### For native English speaker
+#### If you know IPA, the International Phonetic Alphabet
 
-Chang Liu: **cha**(as in *chart*)**--ng, lee--oh**
+- Liu, Chang (in Official Mandarin): **liou˧˥ tʂʰaŋ˥˩**
 
-##### If you know IPA, the International Phonetic Alphabet
+- Liu, Chang (in Southwestern Mandarin, the dialect I'm speaking): **liou˨˩ tɕʰaŋ˩˧**
 
-Liu, Chang (in Official Mandarin): **liou˧˥ tʂʰaŋ˥˩**
-
-Liu, Chang (in Southwestern Mandarin, the dialect I'm speaking): **liou˨˩ tɕʰaŋ˩˧**
-
-
-
-### About Zlekdius or ZLECDIVS
+---
+#### About Zlekdius or ZLECDIVS
 
 to be completed...
