@@ -29,13 +29,3 @@ I cannot share my code, but idea can be communicated. [Report for the two labs](
 ---
 ## Software Rasterizer
 In the month before I started to learned offline rendering, I tried to implement a [software rasterizer](https://github.com/HummaWhite/SoftRaster) which emulates the functions of modern hardware graphics pipelines. It supports programmable vertex shader and fragment shader.
-
----
-## The Final Project of C++ Programming Course
-My final project for C++ Programming (fall 2019). We were required to make a sprite game, so I made a very simpified duplicate of A LINK TO THE PAST, Github repo [here](https://github.com/HummaWhite/cpp2019).
-
----
-### 3D Model for the Administrative Building of No.7 High School Chengdu
-In 2018 I had thought of making such a model for my high school. For some reasons, it was until Jan 2020 I finally finished it (just before I knew Graphics). I build this model by direct observation of the building, with help from some historical images and lengths I measured at the ground level. Git repo [here](https://github.com/HummaWhite/3DProject).
-
-In 2020 I could only use Blender to render this model, to celebrate the 115th anniversary of my high school. A year later I'm able to render it with my own renderer!
