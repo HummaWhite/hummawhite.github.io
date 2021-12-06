@@ -8,7 +8,7 @@ form: true
 
 Background images of every column were rendered by **ZillumGL**.
 
-- HOME: Mistuba material test ball
+- HOME: Mitsuba material test ball
 - ABOUT: Livingroom
 - PROJECTS: Utah teapot (original version)
 - Gallery: Gallery
