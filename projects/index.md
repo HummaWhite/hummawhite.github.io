@@ -21,10 +21,10 @@ Typically when I want to verify new light transport methods I learn, I'll first 
 
 ---
 ## Parallel & Distributed Computing Course Lab Project
-There were two programming labs in the course this year (2021). One is MPI prime sieving, the other is CUDA n-body problem.
-My programs were the best optimized in the class, which earned me 100% score of the lab part :) (the faster your program, the higher your score).
+There were two programming labs in the course this year (2021).
+My programs were the best optimized in the class, which earned me 100% score of the lab part : ) (the faster your program, the higher your score).
 
-I cannot share my code, but idea can be communicated. [Report for the two labs]()
+I cannot share my code, but ideas can be communicated. Presentation slides (in Chinese): [MPI Prime Sieve](Parallel/MPI_prime_sieve.pdf), [CUDA N-Body](Parallel/CUDA_nbody.pdf)
 
 ---
 ## Software Rasterizer
