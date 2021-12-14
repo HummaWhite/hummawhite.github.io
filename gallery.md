@@ -6,12 +6,12 @@ background: '/img/gallery.png'
 form: true
 ---
 
-Background images of every column were rendered by **ZillumGL**.
+Background images of each section were rendered by **ZillumGL**.
 
 - HOME: Mitsuba material test ball
 - ABOUT: Livingroom
 - PROJECTS: Utah teapot (original version)
-- Gallery: Gallery
+- GALLERY: Gallery
 
 <center>
 	<img src="/img/sponza.png" width="100%" />
