@@ -30,5 +30,5 @@ Background images of each section were rendered by **ZillumGL**.
 Comparison with other rendering softwares
 <center>
 	<img src="/img/comp1.png" width="100%" />
-	i5-8400+1050Ti, 4 bounces, 1024 spp. Left: ZillumGL 207s, right: Blender cycles CPU+GPU 313s
+	i5-8400+1050Ti, 4 bounces, 1024 spp. Left: ZillumGL 250s, right: Blender cycles CPU+GPU 350s
 </center>
