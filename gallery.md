@@ -32,9 +32,3 @@ Comparison with other rendering softwares
 	<img src="/img/comp1.png" width="100%" />
 	i5-8400+1050Ti, 4 bounces, 1024 spp. Left: ZillumGL 250s, right: Blender cycles CPU+GPU 350s
 </center>
-
-Radiance vs. importance (path tracing vs. adjoint particle tracing)
-<center>
-	<img src="/img/radiance_vs_importance.png" width="100%" />
-	This is from the CPU version, though
-</center>

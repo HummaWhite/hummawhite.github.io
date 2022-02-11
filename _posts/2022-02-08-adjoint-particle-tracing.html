@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Adjoint Particle Tracing"
+subtitle: " "
+date: 2021-02-10 16:45:13 -0400
+background: '/img/teapot3.png'
+---
+
+<p>Just a few days ago I managed to get my adjoint paticle tracer correct, which I regarded as a prequisite for bidirectional path tracing.</p>
+
+<p>Theoretically, adjoint particle tracing (light tracing) is no harder than path tracing - as long as you understand the significance of "ajoint" in Veach's thesis: adjoint BSDF, adjoint operator, etc. However, when it comes to implementation, there are some points that may get one confused: first the importance function of camera, which is not so straight to understand (at least for me). </p>
+
+<p>The second problem is how to correctly scale accumulated irradiance on the film to get an unbiased result, because it's not like path tracing in which you know how many samples for each pixel in advance. At first I tried to devide each pixel's result by the number of samples they received, but it always produced corrupted images. After long time wrestling with this error, I finally figured out the right answer: the number of paths generated devided by the number of pixels on the film, which also makes it possible for progressive rendering. </p>
+
+<p>The picture below shows the result from my light tracer, compared to path tracer in the left column. Both are rendered in 60 seconds, on 6 threads with sobol sampler. You can see light tracing is way better at direct caustics. And I guess direct caustics in BDPT mostly comes from light tracing. However, for direct glossy/specular surfaces, the more glossy, the less "connectible" to the camera. For delta BSDF like smooth dielectric and mirror, it is completely "unrenderable". But dispite this disadvantage, I think light tracing may produce more visually pleasant results with diffuse surfaces, like in the four scenes.</p>
+
+<center>
+	<img src="/img/radiance_vs_importance.png" width="100%" />
+</center>
