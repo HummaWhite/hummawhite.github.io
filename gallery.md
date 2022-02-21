@@ -19,6 +19,7 @@ Background images of each section were rendered by **ZillumGL**.
 	<img src="/img/livingroom2.png" width="100%" />
 	<img src="/img/car1.png" width="100%" />
 	<img src="/img/mitsuba1.png" width="100%" />
+	<img src="/img/disney.png" width="100%" />
 	<img src="/img/teapot2.png" width="100%" />
 	<img src="/img/rungholt.png" width="100%" />
 	<img src="/img/livingroom.png" width="100%" />
