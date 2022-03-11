@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Bidirectional Path Tracing"
+subtitle: " "
+date: 2021-03-11 21:11:04 -0400
+background: '/img/teapot3.png'
+---
+
+<center>
+	<img src="/img/bdpt.png" width="100%" />
+	Beautiful caustics. This image took about 100 minutes to render
+</center>
+
+<center>
+	<img src="/img/bdpt_strategies.png" width="100%" />
+	Unweighted contribution, MIS weight (power heuristic), and weighted contribution
+</center>
+
+<p>The visualized MIS weights supported my earlier hypothesis that direct caustics in BDPT is mostly contributed by light tracing (t=1 case). And to my surprise, it even contributes considerably to indirect illumination of diffuse surfaces.</p>
+
+<center>
+	<img src="/img/pt_bdpt_lpt.png" width="100%" />
+	Comparison with path tracing and light tracing. Each rendered in 20 minutes, with fixed tracing depth=10
+</center>
+
+<p>While BDPT can handle LS+DE and LDS+E paths, which path tracer and light tracer cannot handle respectively, SDS paths still remains an obstacle: the walls which appear in bunny's specular surface do not have caustics! (first S: bunny's surface, second S: delta light. By the way, I didn't actually implement delta light, I used a tiny area light and a paraboloid mirror to approximate one)</p>
+
+<p>Maybe the solution to rendering SDS paths lies in density estimation methods, so it's time to learn more about the photon mapping family... </p>
