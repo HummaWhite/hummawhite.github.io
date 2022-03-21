@@ -1,0 +1,18 @@
+---
+layout: post
+title: "GPU Adjoint Particle Tracing"
+subtitle: " "
+date: 2021-03-31 21:16:20 -0400
+background: '/img/teapot3.png'
+---
+
+<p>I spent only one day and a half implementing this adjoint particle tracer in ZillumGL. However, since ZillumGL was originally intended to be a path tracer only, it took me five days to adjust my code framework prior to this implementation. This included creating abstract integrator classes, as in a CPU renderer. Moreover, I separated some common modules in order to reuse among shaders of different integrators, such as ray intersection test, light/camera sampling and BSDF calculation.</p>
+
+<center><img src="/img/gpu_light_tracing.png" width="60%" /></center>
+
+<p>Even though the work was generally pretty easy, a problem I met nearly made me give up halfway: native GLSL doesn't support atomic float operation, which is critical for random (and async) radiance accumulation on the film buffer. Luckily, I found a GLSL extension,</p>
+<center><b>GL_NV_shader_atomic_float</b> with</center>
+<center><b>imageAtomicAdd(IMAGE_PARAMS, float data)</b></center>
+<p>making such operation possible (note this extension is only compatible with r32f format images, meaning you have to change your [w, h, rgba32f] buffer image to [w * 3, h, r32f] format to use that function).</p>
+
+<p>It is delightful adjoint particle tracing can be implemented with GLSL. Because this has proved the following goal, a naive GPU bidirectional path tracer, has virtually no other technical obstacle than random buffer accumulation.</p>
