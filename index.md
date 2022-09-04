@@ -3,12 +3,25 @@ layout: home
 background: '/img/mitsuba2.png'
 ---
 
-I am [**Chang Liu**](name), a final-year undergraduate student at University of Electronic Science and Technology of China (UESTC), majoring in Computer Science and Technology.
+I am [*Chang Liu*](name), a first-year CGGT student at the University of Pennsylvania.
 
-My area of interest is computer graphics: **realistic image synthesis** and **real-time rendering**.
+#### Links
 
-[My Github Page](https://github.com/HummaWhite)
+- [*Github*](https://github.com/HummaWhite)
+- [*LinkedIn*](https://www.linkedin.com/in/chang-liu-0451a6208/)
 
-##### Recent progress:
-Understanding and implementation of **Bidirectional Path Tracing**
-<center><img src="/img/bdpt.png" width="100%" /></center>
+#### Interest
+
+**Real-Time Rendering** & **Realistic Image Synthesis**
+
+#### Skills
+
+- C++
+- Graphics APIs: OpenGL, Vulkan
+- Rendering theories: both real-time and offline
+- GPU computing: CUDA
+
+#### Recent Progress
+
+Implementation of **Bidirectional Path Tracing** in [*Zillum Renderer*](https://github.com/HummaWhite/Zillum) (March 2022)
+<center><img src="./img/penn.png" width="100%" /></center>
