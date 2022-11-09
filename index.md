@@ -12,7 +12,7 @@ I am [*Chang Liu*](name), a first-year CGGT student at the University of Pennsyl
 
 #### Interest
 
-**Real-Time Rendering** & **Realistic Image Synthesis**
+**Real-Time Rendering** & **Physically Based Rendering**
 
 #### Skills
 
@@ -22,6 +22,8 @@ I am [*Chang Liu*](name), a first-year CGGT student at the University of Pennsyl
 - GPU computing: CUDA
 
 #### Recent Progress
+
+CUDA path tracer for Penn's CIS 565
 
 Implementation of **Bidirectional Path Tracing** in [*Zillum Renderer*](https://github.com/HummaWhite/Zillum) (March 2022)
 <center><img src="./img/penn.png" width="100%" /></center>
