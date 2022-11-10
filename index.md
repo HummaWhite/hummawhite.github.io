@@ -1,6 +1,6 @@
 ---
 layout: home
-background: '/img/mitsuba2.png'
+background: '/img/rungholt_2.jpg'
 ---
 
 I am [*Chang Liu*](name), a first-year CGGT student at the University of Pennsylvania.
