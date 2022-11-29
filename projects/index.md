@@ -7,8 +7,36 @@ background: '/img/teapot3.png'
 The projects listed below could have had their own development blogs, but time is quite limited... Perhaps I'll write some when I'm free.
 
 ---
+## Vulkan Path Tracer (ongoing)
+
+
+---
+## ReSTIR DI and GI
+A side project of VK path tracer. I implemented ReSTIR DI [SIG 2020] and ReSTIR DI [HPG 2021] in CUDA first for validation.
+
+For more information and code, check [here](https://github.com/HummaWhite/ReSTIR)
+
+![](https://hummawhite.github.io/img/restir_di.jpg)
+
+---
+## CUDA PT
+I'd rather call it [ZillumCU](https://github.com/HummaWhite/Project3-CUDA-Path-Tracer).
+
+The 3rd project of Penn's CIS 565 GPU Architecture and Computing course, completed in Oct 2022. Because I had two renderers before.
+
+What was different in this project compared to my other two renderers is that I tried to add support for PBR textures. The result turned to be even stunning to myself:
+
+![](https://raw.githubusercontent.com/HummaWhite/Project3-CUDA-Path-Tracer/main/img/photo_realistic.jpg)
+
+---
 ## SVGF
-I replicated SVGF from [this paper](https://research.nvidia.com/publication/2017-07_Spatiotemporal-Variance-Guided-Filtering%3A) in November 2021. [The result page](SVGF/).
+Update in 2022:
+One year later, I reimplemented SVGF as the 4th project for CIS 565. This time it's build on CUDA with better code structure, better quality and (probably) better performance. Execept using position difference instead of clip space depth derivatives to drive the filter kernel, this implementation replicates every point mentioned in the paper.
+
+You can find the project repo and my report for the project [here](https://github.com/HummaWhite/Project4-CUDA-Denoiser)
+
+Original post:
+I implementted SVGF from [this paper](https://research.nvidia.com/publication/2017-07_Spatiotemporal-Variance-Guided-Filtering%3A) in November 2021. [The result page](SVGF/).
 
 Still, the performance of my implementation demands to be improved, since the 5-level A-trous wavelet runs about 50ms on my 1050ti. So code will come later when I'm free to do so.
 
@@ -20,7 +48,7 @@ Still, the performance of my implementation demands to be improved, since the 5-
 </center>
 
 [Zillum](https://github.com/HummaWhite/Zillum) is my renderer, under development since I seriously began to study realistic image synthesis in Sep 2020. Now it has two versions, one running on CPU, another on GPU by OpenGL compute shader, which is named [ZillumGL](https://github.com/HummaWhite/ZillumGL).
- 
+
 I made three videos about the GPU version in 2021, you can view them through the links: [Low-discrepancy sampler test](https://youtu.be/pjfcD8fYfQg), [Rendering the Gallery scene](https://youtu.be/TGbwSyqxKvY), [Rendering the Utah Teapot](https://youtu.be/HNXanaqzhgQ). Also, see pictures in the GALLERY section.
 
 Typically when I learn new rendering algorithms, I'll first try to implement them in Zillum, then I would think how to implement those on GPU and optimize. I've implemented path tracing, adjoint particle tracing and bidirectional path tracing integrators in Zillum. And for ZillumGL, I implemented path tracing and adjoint particle tracing. Both versions now support MTBVH, environment map importance sampling and multiple BSDF models. When it's appropriate, I think I would consider merging the two versions into one software.
