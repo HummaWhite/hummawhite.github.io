@@ -7,7 +7,8 @@ form: true
 ---
 
 <div align="center">
-	<img src="/img/kabe_ihe.jpg" />
+	<img src="/img/kabe_ihe.jpg" width="100%"/>
+	<p>もしこの壁の中が一軒の家だとしたら...</p><br>
 	<p>Environment project for our 3D Modeling course at Penn (DSGN 5005)</p>
-	<p>もしこの壁の中が一軒の家だとしたら...</p>
+	<p>Modeled and rendered with Maya, NOT my renderer</p>
 </div>
