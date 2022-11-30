@@ -16,7 +16,9 @@ A side project of VK path tracer. I implemented ReSTIR DI [SIG 2020] and ReSTIR 
 
 For more information and code, check [here](https://github.com/HummaWhite/ReSTIR)
 
-![](https://hummawhite.github.io/img/restir_di.jpg)
+<div align="center">
+	<img src="https://hummawhite.github.io/img/restir_di.jpg" width="100%" />
+</div>
 
 ---
 ## CUDA PT
@@ -26,7 +28,9 @@ The 3rd project of Penn's CIS 565 GPU Architecture and Computing course, complet
 
 What was different in this project compared to my other two renderers is that I tried to add support for PBR textures. The result turned to be even stunning to myself:
 
-![](https://raw.githubusercontent.com/HummaWhite/Project3-CUDA-Path-Tracer/main/img/photo_realistic.jpg)
+<div align="center">
+	<img src="https://raw.githubusercontent.com/HummaWhite/Project3-CUDA-Path-Tracer/main/img/photo_realistic.jpg" width="100%" />
+</div>
 
 ---
 ## SVGF
