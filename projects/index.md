@@ -11,14 +11,13 @@ The projects listed below could have had their own development blogs, but time i
 
 
 ---
-## ReSTIR DI and GI
-A side project of VK path tracer. I implemented ReSTIR DI [SIG 2020] and ReSTIR DI [HPG 2021] in CUDA first for validation.
-
-For more information and code, check [here](https://github.com/HummaWhite/ReSTIR)
-
+## EIDOLA - VK Real-Time PT
+CIS 565 final project. We implemented a real-time path tracer with Vulkan, ReSTIR DI [Bitterli et al. 2020], ReSTIR GI [Ouyang et al. 2021] and a denoiser (actually A-Trous). We're able to make it 50 FPS for the Bistro scene.
 <div align="center">
-	<img src="https://hummawhite.github.io/img/restir_di.jpg" width="100%" />
+	<img src="https://raw.githubusercontent.com/IwakuraRein/CIS-565-Final-VR-Raytracer/restir-direct/images/bistro_ext.jpg" width="100%" />
 </div>
+
+[Repo](https://github.com/IwakuraRein/CIS-565-Final-VR-Raytracer) and [demo video](https://youtu.be/cIA90Zalupw)
 
 ---
 ## CUDA PT

@@ -23,6 +23,11 @@ I am [*Chang Liu*](name), a first-year CGGT student at the University of Pennsyl
 
 ### Recent Progress
 
+#### EIDOLA: Vulkan Real-Time Path Tracer (12/2022)
+<div align="center"><img src="https://raw.githubusercontent.com/IwakuraRein/CIS-565-Final-VR-Raytracer/restir-direct/images/bistro_ext.jpg" width="100%" /></div>
+[Repo](https://github.com/IwakuraRein/CIS-565-Final-VR-Raytracer)
+<br>
+
 #### ReSTIR DI Implementation (11/2022)
 <div align="center"><img src="./img/restir_di.jpg" width="100%" /></div>
 [Repo](https://github.com/HummaWhite/ReSTIR)
