@@ -4,12 +4,6 @@ title: Projects
 background: '/img/teapot3.png'
 ---
 
-The projects listed below could have had their own development blogs, but time is quite limited... Perhaps I'll write some when I'm free.
-
----
-## Vulkan Path Tracer (ongoing)
-
-
 ---
 ## EIDOLA - VK Real-Time PT
 CIS 565 final project. We implemented a real-time path tracer with Vulkan, ReSTIR DI [Bitterli et al. 2020], ReSTIR GI [Ouyang et al. 2021] and a denoiser (actually A-Trous). We're able to make it 50 FPS for the Bistro scene.
