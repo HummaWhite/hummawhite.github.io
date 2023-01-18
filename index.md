@@ -34,7 +34,7 @@ I am [*Chang Liu*](name), a first-year CGGT student at the University of Pennsyl
 <br>
 
 #### CUDA Path Tracer - Penn CIS 565 Course Project (10/2022)
-<div align="center"><img src="https://raw.githubusercontent.com/HummaWhite/Project3-CUDA-Path-Tracer/main/img/photo_realistic.jpg" width="100%" /></div>
+<div align="center"><img src="./img/cam1.jpg" width="100%" /></div>
 Check the [repo here](https://github.com/HummaWhite/Project3-CUDA-Path-Tracer)
 <br>
 
