@@ -1,7 +1,7 @@
 ---
 layout: page
-title: EGO ET GRAPHICVS
-description: Me and Graphics
+title: ABOUT
+description: Me
 background: '/img/imp1.jpg'
 ---
 
