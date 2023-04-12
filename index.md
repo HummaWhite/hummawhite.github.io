@@ -20,7 +20,7 @@ Here are links to my Github and LinkedIn pages:
 And an overview of my recent progress in rendering:
 
 #### EIDOLA: Vulkan Real-Time Path Tracer (12/2022) [[Code]](https://github.com/IwakuraRein/CIS-565-Final-VR-Raytracer) [[Demo]](https://www.youtube.com/watch?v=cIA90Zalupw)
-<div align="center"><img src="https://raw.githubusercontent.com/IwakuraRein/CIS-565-Final-VR-Raytracer/restir-direct/images/bistro_ext.jpg" width="100%" /></div>
+<div align="center"><a href="https://www.youtube.com/watch?v=cIA90Zalupw"><img src="https://raw.githubusercontent.com/IwakuraRein/CIS-565-Final-VR-Raytracer/restir-direct/images/demov.png" width="100%" /></a></div>
 
 #### ReSTIR DI Implementation (11/2022) [[Code]](https://github.com/HummaWhite/ReSTIR)
 <div align="center"><img src="./img/restir_di.jpg" width="100%" /></div>
