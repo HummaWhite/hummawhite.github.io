@@ -3,21 +3,17 @@ layout: home
 background: '/img/rungholt_2.jpg'
 ---
 
-Welcome to my website!
+Welcome to my homepage!
 
-I am [*Chang Liu*](name), a graduate student majoring in Computer Graphics and Game Technology (CGGT) at the University of Pennsylvania. I have been interested in **Physically Based Rendering** and **Real-time Rendering** for a long time. I have about three years of experience in rendering programming and implemented a lot of algorithms.
-
-I'm familar with C++ and GPU programming APIs like Vulkan, CUDA and OpenGL.
- I can also do some low-end programming too.
-
-In rendering, my concentration is Global Illumination: Physically Based Light Transport and Real-time Ray Tracing.
-
-Here are links to my Github and LinkedIn pages:
+Here are links to my Github and LinkedIn:
 
 - [*Github*](https://github.com/HummaWhite)
 - [*LinkedIn*](https://www.linkedin.com/in/chang-liu-0451a6208/)
 
-And an overview of my recent progress in rendering:
+Project board:
+
+#### Vulkan ReSTIR PT (12/2023) [[Project Page]](https://github.com/HummaWhite/Vulkan-ReSTIR-PT)
+<div align="center"><img src="https://raw.githubusercontent.com/HummaWhite/Vulkan-ReSTIR-PT/main/img/temporal.jpg" width="100%" /></div>
 
 #### LayerMatNode: Layered Material Shader Node Plugin for Arnold in Maya (05/2023) [[Project Page]](https://github.com/HummaWhite/LayerMatNode)
 
