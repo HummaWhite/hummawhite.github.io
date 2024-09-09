@@ -2,7 +2,7 @@
 layout: page
 title: ABOUT
 description: Me
-background: '/img/imp1.jpg'
+background: ''
 ---
 
 to be compeleted...

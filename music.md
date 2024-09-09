@@ -1,14 +1,8 @@
 ---
 layout: page
 title: MVSICA
-description: Music Stuff
-background: '/img/RGA622XH.png'
+description: Transcription/Cover/Oringinal
+background: ''
 ---
 
-#### First melody
-
-A mixture of D Mixolydian and D Dorian, I think.
-
-<div align="center">
-	<img src="/img/imp1.jpg" width="100%"/>
-</div>
+[Transcription] Bravely Default II Soundtrack: 木漏れ日
